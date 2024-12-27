@@ -12,8 +12,8 @@ type TodoContextType = {
 export const TodosContext = createContext<TodoContextType>({
   items: [],
   setTodos: () => {},
-  addTodo: (todoText: string) => {},
-  removeTodo: (id: string) => {},
+  addTodo: () => {},
+  removeTodo: () => {},
 });
 
 const TodosContextProvider: React.FC<{ children: React.ReactNode }> = (
