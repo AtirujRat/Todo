@@ -1,0 +1,26 @@
+.item {
+  margin: 1rem 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #f7f5ef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  font: 1.5rem;
+}
+.item p {
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.item div {
+  width: 50px;
+  display: flex;
+  gap: 5px;
+
+  color: black;
+}
+.button {
+  cursor: pointer;
+}
